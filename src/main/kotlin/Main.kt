@@ -1,8 +1,29 @@
+
+var greeting: String? = """"we are the bet
+    |kkk
+    |kkk"""".trimMargin()
 fun main(){
-    print("hello ' world")
-    val length=43
-    val width=0.56
-    val area=length*width
-    print("the area is :$area")
-    print("got")
-}
+    val name: String = "kaka"
+    //greeting=null
+    //println("kakanyero  innocent")
+    //println("kakanyero  innocent is good $greeting")
+    /**if (greeting != null){
+    println(greeting)
+    }else{
+    println('d')
+    }*/
+
+
+
+
+    /*if (greeting != null){
+        println(greeting)
+    }else{
+        println('d')
+    }
+    */
+val jolly=if(greeting!=null) greeting else """"jal weee
+    |hhh"""".trimMargin()
+    println(jolly)
+
+    }
